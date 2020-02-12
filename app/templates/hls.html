@@ -1,4 +1,11 @@
 {% extends "layout.html" %}
+{% block head %}
+    {{ super() }}
+    {% assets "app_js" %}
+    <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+{% endblock %}
+
 {% block content %}
     {% for post in posts %}
         <article class="media content-section">

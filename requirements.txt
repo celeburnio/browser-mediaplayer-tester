@@ -1,0 +1,4 @@
+Flask>=1.0.2
+Flask-Bootstrap>=3.3.7.1
+Flask-Assets>=2.0
+pyOpenSSL==19.0.0
